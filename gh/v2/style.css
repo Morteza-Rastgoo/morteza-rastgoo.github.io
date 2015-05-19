@@ -1,0 +1,22 @@
+.tpost a {
+ font-family: "B yekan", tahoma, Arial;
+}
+
+.top {
+	background: url('top-main2.jpg') no-repeat top;
+	height: 350px;
+}
+
+.titr2 , .des2 {
+	font-family: "B mehr", Arial, tahoma;
+}
+
+.titr2 {
+margin: 244 -383 0 0;
+color: #fff;
+}
+
+.des2 {
+margin: -6 -350 0 0;
+color: #fff;
+}

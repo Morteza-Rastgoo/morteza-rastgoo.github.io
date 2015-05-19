@@ -1,0 +1,192 @@
+/*
+* headings and paragraph style
+*/
+h1 {
+font-size: 25px;
+}
+ 
+h2 {
+font-size: 20px;
+}
+ 
+/*
+* html and body style
+*/
+ 
+html {
+background-color: #EBEADB;
+color: #333333;
+}
+ 
+body {
+font-family: Georgia;
+}
+ 
+/*
+*
+*/
+#main {
+width: 960px;
+margin: 15px auto;
+}
+ 
+#wrapper {
+background-color: #f5f5f5;
+padding: 25px;
+border: 2px solid #dcdcdc;
+}
+ 
+.section {
+padding: 20px 0;
+}
+ 
+.border {
+background-image: url(border.gif);
+background-position: bottom;
+background-repeat: repeat-x;
+}
+ 
+.last {
+background: none;
+}
+ 
+#header {
+height: 105px;
+padding: 0;
+}
+ 
+ 
+#header #info {
+float: left;
+margin-right: 50px;
+}
+ 
+#header #info #name {
+font-size: 60px;
+color: #DC143C;
+}
+ 
+#header #contact {
+float: right;
+width: 146px;
+font-size: 10px;
+}
+ 
+#header #avatar {
+float: right;
+}
+ 
+.josefin {
+font-family: 'Josefin Slab', sans-serif;
+}
+ 
+#download {
+margin-bottom: 13px;
+font-size: 11px;
+}
+ 
+a {
+text-decoration: none;
+color: #2E8AF7;
+}
+ 
+#download a {
+background-color: #525252;
+padding: 8px;
+text-align: center;
+color: white;
+border: 2px solid #ffffff;
+display: block;
+}
+ 
+#download a:hover {
+background-color: #828282;
+}
+ 
+.contact {
+padding: 2px;
+color: #999;
+}
+ 
+.right {
+float: right;
+}
+ 
+.left {
+float: left;
+}
+ 
+.title {
+font-style: italic;
+font-size: 25px;
+}
+ 
+.description {
+width: 560px;
+}
+ 
+.clear {
+clear: both;
+}
+ 
+#bio a:hover {
+text-decoration: underline;
+}
+ 
+.skill_column {
+float: left;
+width: 160px;
+margin-right: 40px;
+}
+ 
+#skill_column_third {
+margin-right: 0;
+}
+ 
+.skill_column_description {
+font-size: 11px;
+color: #666666;
+}
+ 
+.skill_column_title {
+font-size: 20px;
+margin-bottom: 10px;
+}
+ 
+.technical_section {
+width: 185px;
+font-size: 18px;
+}
+ 
+.technical_section li {
+padding: 8px 0;
+}
+ 
+/*
+* job section style
+*/
+.job {
+position: relative;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+ 
+#experience .last {
+}
+.job-duration {
+position: absolute;
+top: 0;
+right: 0;
+}
+ 
+.job-duration span {
+color: #aaaaaa;
+}
+ 
+#education strong {
+color: #aaaaaa;
+}
+ 
+.hide-description {
+display: none;
+} 
