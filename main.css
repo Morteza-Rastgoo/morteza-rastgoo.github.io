@@ -34,10 +34,10 @@ body,
  */
  .profile{
   text-align: center;
-  max-height: 100px;
-  max-width: 100px;
-  height: 100px;
-  width: 100px;
+  max-height: 300px;
+  max-width: 300px;
+  height: 200px;
+  width: 200px;
 
  }
 .masthead {
@@ -47,11 +47,11 @@ body,
   text-align: center;
 }
 .masthead .brand {
-  font-size: 10px;
+  font-size: 60px;
 }
 .masthead .tagline {
   margin-top: 30px;
-  font-size: 24px;
+  font-size: 34px;
 }
 /**
  * Social links
