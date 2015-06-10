@@ -10,6 +10,34 @@ body,
   width: 100%;
   height: 100%;
 }
+.mori_pic{
+  background-image: url(contact_default.png);
+  width: 450px;
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .mori_pic{
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mori_pic{
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mori_pic{
+    width: 200px;
+    height:200px;
+  }
+}
 .ctn-curtain {
   display: table;
 }
